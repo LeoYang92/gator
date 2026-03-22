@@ -1,6 +1,7 @@
 package config
 
 type Config struct {
-	DBURL string
+	DBURL           string
 	CurrentUserName string
+	filename        string
 }
